@@ -1,0 +1,37 @@
+{
+  "name": "organization-cloner",
+  "description": "clones oranization repositories",
+  "version": "1.0.0",
+  "author": "Narek Hovhannisyan <narekgilmour@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/narekhovhannisyan/organization-cloner/issues"
+  },
+  "contributors": [
+    {
+      "name": "Narek Hovhannisyan",
+      "email": "narekgilmour@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "request-promise": "4.2.5"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "nvm": "6.13.4"
+  },
+  "homepage": "https://github.com/narekhovhannisyan/organization-cloner",
+  "keywords": [
+    "organisation",
+    "cloner"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narekhovhannisyan/organization-cloner"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
